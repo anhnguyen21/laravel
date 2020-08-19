@@ -1,0 +1,129 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: lightblue url("../img_food/login.jpg") no-repeat fixed center;
+}
+
+.login-form {
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* width: calc(20% - 200px);
+    top: calc(20% - 120px);
+    left: calc(60% + 150px); */
+    width: 340px;
+    z-index: 1000;
+    align-items: center;
+}
+
+.login-form form {
+    margin-bottom: 15px;
+    background: #f7f7f7;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    padding: 10px 30px 10px 30px;
+    opacity: 0.8;
+}
+
+.login-form h2 {
+    margin: 0 0 15px;
+}
+
+.form-control {
+    width: 280px;
+    height: 30px;
+}
+
+.form-control,
+.btn {
+    min-height: 38px;
+    border-radius: 2px;
+}
+
+.btn {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.contain {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    background-color: aliceblue;
+    opacity: 0.6;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+.contain form {
+    margin: 20px;
+}
+
+.group_form {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+    margin-top: 20px;
+}
+
+input {
+    height: 30px;
+}
+
+.email {
+    width: 390px;
+}
+
+.txt_input span {
+    color: red;
+}
+
+.btn {
+    position: relative;
+    margin-top: 20px;
+    width: 100px;
+    font-size: 18px;
+    height: 25px;
+    background: seagreen;
+}
+
+.txt_gender input {
+    align-items: center;
+}
+
+.contain div h2 {
+    text-align: center;
+}
+
+@media (max-width: 540px) {
+    .group_form {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        width: 250px;
+    }
+    .email {
+        width: 170px;
+    }
+    form {
+        position: relative;
+        align-items: center;
+        text-align: center;
+    }
+    .txt_gender {
+        margin-left: 30px;
+    }
+}
+
+.btn_regist,
+.clearfix {
+    display: flex;
+    justify-content: center;
+}

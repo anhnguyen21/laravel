@@ -1,0 +1,61 @@
+.co-dinh-menu {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 1000;
+    box-shadow: 2px 5px 5px rgb(0, 0, 0, 0.35);
+}
+
+.back-to-top.hien-ra {
+    visibility: visible;
+    opacity: 1;
+}
+
+.co-dinh-sidebar {
+    position: fixed;
+    top: 110px;
+    z-index: 1000;
+}
+
+.back-to-top {
+    width: 500px;
+    height: 500px;
+    background: rgb(0, 0, 0, 0.7);
+    font-size: 35px;
+    color: whitesmoke;
+    text-align: center;
+    vertical-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    left: 50%;
+    bottom: 20px;
+    /* margin-left: -25px; */
+    cursor: pointer;
+    visibility: hidden;
+    opacity: 0;
+}
+
+nav.menu {
+    width: 100%;
+    background: #ffffff;
+}
+
+nav.menu ul {
+    width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav.menu ul li {
+    padding: 10px 12px;
+    font-size: 20px;
+    list-style: none;
+    margin: 0px 20px;
+    cursor: pointer;
+}
+.margin-top{
+    margin-top: 110px;
+}

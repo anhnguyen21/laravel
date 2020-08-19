@@ -1,0 +1,63 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-image: url("../img/login/bg.jpg");
+    font-family: 'Poppins', sans-serif;
+    background-size: cover;
+}
+.contain{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 450px;
+    width: 350px;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    background: #f7f7f7;
+    opacity: 0.8;
+    border-radius: 5px;
+    box-shadow: 5px 10px rgba(0, 0, 0, 0.3);
+}
+.header{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+.lblMain{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+.contain h2{
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.groupRe{
+    margin: 5px 20px;
+}
+.groupRe input{
+    position: relative;
+    display: flex;
+    justify-content: left;
+    width: 300px;
+    border-style: solid;
+    border-color: hsl(0, 100%, 50%);
+    border-radius: 5px;
+}
+.contain button{
+    align-items: center;
+    margin: 0 30%;
+    width: 150px;
+    background: none;
+    border-color: rgba(0, 0, 0, 0.3);
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
+.contain button:hover{
+    background: rgba(0, 255, 200, 0.2);
+}
+.clearfix{
+    display: flex;
+    justify-content: space-between;
+}
